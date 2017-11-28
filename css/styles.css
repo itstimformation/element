@@ -1,0 +1,85 @@
+/*------------- CSS RESET -----------------------*/
+
+*{
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  line-height: 1em;
+  overflow-x: hidden;
+}
+
+body{
+  /*width: 75%;
+  max-width: 700px;*/
+  font-family: 'Open Sans','Arial', sans-serif;
+  /*font-family: 'Libre Baskerville', Georgia, Times, 'Times New Roman',serif;*/
+  margin: auto;
+  background-color: #ffffff;*/
+  /*background-color: #fafafa;*/
+  color: #333;
+  line-height: 1.8;
+  overflow-x: hidden;
+  overflow-y: ;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 18.5vw 28vw 5vw 23vw 25.5vw;
+  grid-template-rows: 9vh 20vh 19.5vh 51.5vh;
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.a {
+  background-color: #029d9a;
+  grid-row-start: 1;
+  grid-row-end: -1;
+}
+
+.b {
+  background-color: #ffffff;
+  grid-column-start: 2;
+  grid-column-end: -1;
+}
+
+.c {
+  background-color: #f1f2f2;
+  grid-column-start: 2;
+  grid-column-end: -1;
+}
+
+.d {
+  background-color: #e6e7e8;
+  grid-column-start: 2;
+  grid-column-end: -3;
+
+}
+
+.e {
+  background-color: #d1d3d4;
+  grid-column-start: 4;
+  grid-column-end: -1;
+}
+
+.f {
+  background-color: #bcbec0;
+  grid-column-start: 2;
+  grid-column-end: -4;
+}
+
+.g {
+  background-color: #a7a9ac;
+  grid-column-start: 3;
+  grid-column-end: -2;
+}
+
+.h {
+  background-color: #029d9a;
+}
