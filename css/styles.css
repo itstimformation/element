@@ -11,7 +11,7 @@
 body{
   /*width: 75%;
   max-width: 700px;*/
-  font-family: 'Open Sans','Arial', sans-serif;
+  font-family: 'Helvetica Light','Open Sans','Arial', sans-serif;
   /*font-family: 'Libre Baskerville', Georgia, Times, 'Times New Roman',serif;*/
   margin: auto;
   background-color: #ffffff;*/
@@ -19,7 +19,29 @@ body{
   color: #333;
   line-height: 1.8;
   overflow-x: hidden;
-  overflow-y: ;
+  overflow-y: hidden;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src:url('../fonts/Helvetica-Condensed-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Helvetica Medium';
+  src:url('../fonts/Helvetica-Condensed.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Helvetica Light';
+  src:url('../fonts/HelveticaNeueLTStd-UltLtCn.otf') format('opentype');
+}
+
+
+
+::-webkit-scrollbar {
+    display: none;
+    -webkit-overflow-scrolling: touch;
 }
 
 .wrapper {
@@ -41,6 +63,41 @@ body{
   background-color: #029d9a;
   grid-row-start: 1;
   grid-row-end: -1;
+}
+
+div.title {
+  height: auto;
+  margin-left: 2.1vw;
+  margin-top: 3vh;
+}
+
+img.francium {
+  width: 8.4vw;
+  height: auto;
+}
+
+h2.francium {
+  font-family: 'Helvetica';
+  font-weight: lighter;
+  margin-left: -.1vw;
+  margin-top: 1vh;
+  font-size: 4.3vh;
+}
+
+h3.estb {
+  font-family: 'Helvetica Light';
+  font-weight: bolder;
+  margin-left: -.1vw;
+  font-size: 4.5vh;
+  opacity: .4;
+}
+
+p.tagline {
+  font-family: 'Helvetica';
+  font-weight: lighter;
+  width: 8.5vw;
+  font-size: 3.7vh;
+  margin-left: -.1vw;
 }
 
 .b {
