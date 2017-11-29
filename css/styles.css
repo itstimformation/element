@@ -38,11 +38,12 @@ body{
 }
 
 
-
+/*
 ::-webkit-scrollbar {
     display: none;
     -webkit-overflow-scrolling: touch;
-}
+}*/
+
 
 .wrapper {
   display: grid;
@@ -82,6 +83,7 @@ h2.francium {
   margin-left: -.1vw;
   margin-top: 1vh;
   font-size: 4.3vh;
+  height: 4.8vh;
 }
 
 h3.estb {
@@ -90,13 +92,15 @@ h3.estb {
   margin-left: -.1vw;
   font-size: 4.5vh;
   opacity: .4;
+  height: 4.8vh;
+  margin-top: -1vh;
 }
 
-p {
+p.appearance {
   margin-top: 1vh;
   font-family: 'Helvetica';
   font-size: 2.3vh;
-
+  height: 10vh;
 }
 
 p.tagline {
@@ -105,7 +109,8 @@ p.tagline {
   width: 8.5vw;
   font-size: 3.7vh;
   margin-left: -.1vw;
-
+  height: 15vh;
+  margin-top: -.3vh;
 }
 
 h2 {
@@ -113,6 +118,7 @@ h2 {
   font-weight: ;
   font-size: 3.5vh;
   margin-top: -1vh;
+  height: 4vh;
 }
 
 
