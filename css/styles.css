@@ -64,12 +64,13 @@ body{
   background-color: #029d9a;
   grid-row-start: 1;
   grid-row-end: -1;
+  overflow-y: hidden;
 }
 
 div.title {
   height: auto;
   margin-left: 2.1vw;
-  margin-top: 3vh;
+  margin-top: 1vh;
 }
 
 img.francium {
@@ -103,25 +104,75 @@ p.appearance {
   height: 10vh;
 }
 
+p.bio-role {
+  margin-top: 1vh;
+  font-family: 'Helvetica';
+  font-size: 2.3vh;
+  height: 10vh;
+  line-height: 2.5vh;
+}
+
+p.uses {
+  margin-top: 1vh;
+  font-family: 'Helvetica';
+  font-size: 1.7vh;
+  height: 43vh;
+  line-height: 2.3vh;
+}
+
+p.natural {
+  margin-top: 1vh;
+  font-family: 'Helvetica';
+  font-size: 1.7vh;
+  height: 43vh;
+  line-height: 2.3vh;
+}
+
+div.history {
+  margin-left: 2.1vw;
+  width: 13vw;
+  height: 54vh;
+}
+
+p.history {
+  margin-top: 1vh;
+  font-family: 'Helvetica';
+  font-size: 1.7vh;
+  height: 51vh;
+  line-height: 2.3vh;
+}
+
 p.tagline {
   font-family: 'Helvetica';
   font-weight: lighter;
   width: 8.5vw;
   font-size: 3.7vh;
   margin-left: -.1vw;
-  height: 15vh;
+  height: 12vh;
   margin-top: -.3vh;
+}
+
+
+div.history-title {
+  color: #505052;
+  margin-top: 2vh;
+  background-color: white;
+  width: 5vw;
+  text-align: center;
+  margin-left: 2.1vw;
+}
+
+h2.history {
+  height: 4vh;
+  margin: 2px;
 }
 
 h2 {
   font-family: 'Helvetica';
-  font-weight: ;
   font-size: 3.5vh;
   margin-top: -1vh;
   height: 4vh;
 }
-
-
 
 .b {
   background-color: #ffffff;
