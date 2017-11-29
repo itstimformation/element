@@ -45,6 +45,56 @@ body{
 }*/
 
 
+/*---------------- NAV --------------------*/
+
+nav{
+  padding: .5em;
+  /*border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;*/
+  margin-bottom: 4em;
+  z-index: 2;
+  width: 60vw;
+  overflow-y: hidden;
+
+
+}
+
+ul.nav {
+  overflow-y: hidden;
+}
+
+nav ul{
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+nav ul li{
+  font-family: 'Helvetica Medium';
+  font-weight: bold;
+  display: inline;
+  margin: 20px;
+  padding-right: 1vw;
+}
+
+nav ul li a {
+  color: #333333;
+  text-decoration: none;
+  opacity: .6;
+}
+
+nav a:hover{
+  border-bottom: none;
+  color: #a6a6a6;
+}
+
+.other-nav {
+  background-color: white;
+  position: absolute;
+  display: inline;
+}
+
+
 .wrapper {
   display: grid;
   grid-template-columns: 18.5vw 28vw 5vw 23vw 25.5vw;
@@ -85,6 +135,7 @@ h2.francium {
   margin-top: 1vh;
   font-size: 4.3vh;
   height: 4.8vh;
+  overflow-y: hidden;
 }
 
 h3.estb {
@@ -95,6 +146,7 @@ h3.estb {
   opacity: .4;
   height: 4.8vh;
   margin-top: -1vh;
+  overflow-y: hidden;
 }
 
 p.appearance {
@@ -150,6 +202,7 @@ p.tagline {
   margin-left: -.1vw;
   height: 12vh;
   margin-top: -.3vh;
+  overflow-y: hidden;
 }
 
 
@@ -172,6 +225,45 @@ h2 {
   font-size: 3.5vh;
   margin-top: -1vh;
   height: 4vh;
+}
+
+img.structure {
+  width: 19vw;
+}
+
+p.links {
+  margin-top: 1.5vh;
+  height: 15vh;
+  font-family: 'Helvetica';
+  font-size: 2.5vh;
+  line-height: 3vh;
+}
+
+a {
+  color: #a6c5e8;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: .6;
+}
+
+table {
+  margin: auto;
+  margin-top: 2vh;
+}
+
+td {
+  width: 12vw;
+  overflow-y: hidden;
+  text-align: center;
+  font-family: 'Helvetica';
+  font-size: 3vh;
+}
+
+img.facts-squares {
+  width: 2.5vw;
+  height: auto;
 }
 
 .b {
@@ -219,4 +311,6 @@ h2 {
 
 .h {
   background-color: #029d9a;
+  text-align: center;
+  overflow-y: hidden;
 }
