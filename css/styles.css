@@ -38,11 +38,11 @@ body{
 }
 
 
-/*
+
 ::-webkit-scrollbar {
     display: none;
     -webkit-overflow-scrolling: touch;
-}*/
+}
 
 
 /*---------------- NAV --------------------*/
