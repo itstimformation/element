@@ -6,6 +6,7 @@
   font-size: 100%;
   line-height: 1em;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 body{
@@ -39,10 +40,14 @@ body{
 
 
 
+
+
 ::-webkit-scrollbar {
     display: none;
     -webkit-overflow-scrolling: touch;
 }
+
+
 
 
 /*---------------- NAV --------------------*/
@@ -207,8 +212,19 @@ button.landing:hover {
   cursor: pointer;
 }
 
+div.landing-tag {
+  margin-bottom: 1vh;
+  height: 100vh;
+  text-align: center;
+}
 
-
+p.landing-tag {
+  margin-bottom: 1vh;
+  font-family: 'Helvetica Medium';
+  opacity: .6;
+  position: relative;
+  margin-top: 35vh;
+}
 
 
 
