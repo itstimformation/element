@@ -145,55 +145,60 @@ h3.estb {
   font-size: 4.5vh;
   opacity: .4;
   height: 4.8vh;
-  margin-top: -1vh;
+  margin-top: -.5em;
   overflow-y: hidden;
 }
 
 p.appearance {
   margin-top: 1vh;
   font-family: 'Helvetica';
-  font-size: 2.7vh;
-  line-height: 3vh;
-  height: 7vh;
+  font-size: 1.1em;
+  line-height: 1em;
+  height: auto;
+  overflow-y: hidden;
 }
 
 p.bio-role {
   margin-top: 1vh;
   font-family: 'Helvetica';
-  font-size: 2.7vh;
-  height: 12vh;
-  line-height: 3vh;
+  font-size: 1.1em;
+  height: auto;
+  overflow-y: hidden;
+  line-height: 1em;
 }
 
 p.uses {
   margin-top: 1vh;
   font-family: 'Helvetica';
-  font-size: 2.7vh;
-  height: 83vh;
-  line-height: 3vh;
+  font-size: 1.1em;
+  height: auto;
+  overflow-y: hidden;
+  line-height: 1em;
 }
 
 p.natural {
   margin-top: 1vh;
   font-family: 'Helvetica';
   font-size: 1.1em;
-  height: 21em;
-  line-height: 3vh;
+  height: auto;
+  line-height: 1em;
+  overflow-y: hidden;
 }
 
 div.history {
   margin-left: .5em;
   width: 13vw;
-  height: 96vh;
+  height: auto;
   overflow-y: hidden;
 }
 
 p.history {
   margin-top: 1vh;
   font-family: 'Helvetica';
-  font-size: 2.7vh;
-  height: 40em;
-  line-height: 3vh;
+  font-size: 1.1em;
+  height: auto;
+  overflow-y: hidden;
+  line-height: 1em;
   overflow-y: hidden;
 }
 
@@ -213,21 +218,25 @@ div.history-title {
   color: #505052;
   margin-top: 2vh;
   background-color: white;
-  width: 5vw;
+  width: 4.5em;
   text-align: center;
   margin-left: .5em;
 }
 
 h2.history {
-  height: 4vh;
+  font-size: 1.3em;
+  height: auto;
+  overflow-y: hidden;
   margin: 2px;
 }
 
 h2 {
   font-family: 'Helvetica';
-  font-size: 3.5vh;
+  font-size: 1.3em;
   margin-top: -1vh;
-  height: 4vh;
+  height: auto;
+  overflow-y: hidden;
+  margin-bottom: .5em;
 }
 
 img.structure {
