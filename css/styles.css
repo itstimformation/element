@@ -177,12 +177,12 @@ nav a:hover{
 
 div.landing {
   width: 100vw;
-  height: 55vh;
+  height: 59.5vh;
   text-align: center;
 }
 
 img.landing {
-  width: 8vw;
+  width: 9.3vw;
   height: auto;
   padding-top: 30vh;
 }
@@ -190,6 +190,7 @@ img.landing {
 div.landing-button {
   width: 100vw;
   text-align: center;
+
 }
 
 button.landing {
@@ -200,11 +201,10 @@ button.landing {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 1.5em;
     font-family: 'Helvetica Light';
     letter-spacing: 2px;
-    width: 8vw;
+
 }
 
 button.landing:hover {
@@ -219,23 +219,18 @@ div.landing-tag {
 }
 
 p.landing-tag {
-  margin-bottom: 1vh;
   font-family: 'Helvetica Medium';
   opacity: .6;
   position: relative;
-  margin-top: 35vh;
+  margin-top: 28vh;
 }
 
+/*---------------- EXPLORE ----------------------*/
 
-
-
-
-
-
-
-
-
-
+img.corner-logo {
+  width: 5vw;
+  height: auto;
+}
 
 
 
