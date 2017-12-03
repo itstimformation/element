@@ -143,6 +143,7 @@ nav a:hover{
   color: #58595b;
   grid-column-start: 2;
   grid-column-end: -3;
+  overflow-y: scroll;
 
 }
 
@@ -151,6 +152,7 @@ nav a:hover{
   color: #58595b;
   grid-column-start: 3;
   grid-column-end: -1;
+  overflow-y: scroll;
 }
 
 .f {
@@ -158,6 +160,7 @@ nav a:hover{
   color: #58595b;
   grid-column-start: 2;
   grid-column-end: -4;
+  overflow-y: scroll;
 }
 
 .g {
@@ -165,6 +168,7 @@ nav a:hover{
   color: #58595b;
   grid-column-start: 3;
   grid-column-end: -2;
+  overflow-y: scroll;
 }
 
 .h {
@@ -291,7 +295,7 @@ p.appearance {
   font-size: 1.1em;
   line-height: 1em;
   height: auto;
-  overflow-y: hidden;
+  overflow-y:
 }
 
 p.bio-role {
