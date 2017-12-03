@@ -177,14 +177,19 @@ nav a:hover{
 
 div.landing {
   width: 100vw;
-  height: 59.5vh;
+  height: 28vh;
   text-align: center;
+  margin-top: 30vh
 }
 
 img.landing {
   width: 9.3vw;
   height: auto;
-  padding-top: 30vh;
+
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
 div.landing-button {
@@ -222,7 +227,7 @@ p.landing-tag {
   font-family: 'Helvetica Medium';
   opacity: .6;
   position: relative;
-  margin-top: 28vh;
+  margin-top: 30vh;
 }
 
 /*---------------- EXPLORE ----------------------*/
