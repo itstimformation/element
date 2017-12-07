@@ -236,23 +236,26 @@ p.landing-tag {
 
 /*---------------- EXPLORE ----------------------*/
 
+div.logo {
+  height: auto;
+  width: auto;
+  margin-left: 2vw;
+  margin-top: 2vh;
+}
+
 img.corner-logo {
   width: 5vw;
   height: auto;
+  position: absolute;
 }
 
+ul.explore-nav {
+  margin-left: 8vw;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+ul.explore-nav li {
+  font-size: 1.5vw;
+}
 
 
 /*-------------- ELEMENT -----------------*/
@@ -416,4 +419,275 @@ td {
 img.facts-squares {
   height: 2.5vw;
   width: auto;
+}
+
+/*---------------- EXPLORE -------------------*/
+
+div.choose {
+  overflow-x: hidden;
+  text-align: center;
+}
+
+h2#element {
+  font-family: 'Helvetica Light';
+  color: white;
+  font-size: 4.1vw;
+  position: absolute;
+  bottom: -2vh;
+  left: 1vw;
+  z-index: -1;
+  opacity: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 10vh;
+}
+
+h3#element {
+  font-family: 'HelveticaRoman';
+  color: #94c5c7;
+  font-size: 1.3vw;
+  position: absolute;
+  bottom: 2vh;
+  left: 1vw;
+  z-index: -1;
+  opacity: 0;
+}
+
+/*----- ELEMENT 1 --------*/
+
+article.element1 {
+  width: 16.7vw;
+  height: 80vh;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  background-color: #029d9a;
+  background: url(../images/francium1.png) center center no-repeat;
+  background-size: cover;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+article.element1:hover {
+  background-image: url(../images/francium2.png);
+}
+
+a.element1 {
+  display: block;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+
+#element1:hover #element {
+  opacity: 1;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+/*----- ELEMENT 2 --------*/
+
+article.element2 {
+  width: 16.7vw;
+  height: 80vh;
+  background-color: #991b28;
+  background: url(../images/hydrogen1.png) center center no-repeat;
+  z-index: 2;
+  margin-left: 16.7vw;
+  position: absolute;
+  bottom: 0;
+  background-size: cover;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+article.element2:hover {
+  background-image: url(../images/hydrogen2.png);
+}
+
+a.element2 {
+  display: block;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+
+#element2:hover #element {
+  opacity: 1;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+/*----- ELEMENT 3 --------*/
+
+article.element3 {
+  width: 16.7vw;
+  height: 80vh;
+  background-color: #60b646;
+  background: url(../images/helium1.png) center center no-repeat;
+  z-index: 3;
+  margin-left: 33.4vw;
+  position: absolute;
+  bottom: 0;
+  background-size: cover;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+article.element3:hover {
+  background-image: url(../images/helium2.png);
+}
+
+a.element3 {
+  display: block;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+
+#element3:hover #element {
+  opacity: 1;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+/*----- ELEMENT 4 --------*/
+
+article.element4 {
+  width: 16.7vw;
+  height: 80vh;
+  background-color: #6e509f;
+  background: url(../images/lithium1.png) center center no-repeat;
+  z-index: 3;
+  margin-left: 50.1vw;
+  position: absolute;
+  bottom: 0;
+  background-size: cover;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+a.element4 {
+  display: block;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+
+article.element4:hover {
+  background-image: url(../images/lithium2.png);
+}
+
+#element4:hover #element {
+  opacity: 1;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+/*----- ELEMENT 5 --------*/
+
+article.element5 {
+  width: 16.7vw;
+  height: 80vh;
+  background-color: #f2642f;
+  background: url(../images/boron1.png) center center no-repeat;
+  z-index: 2;
+  margin-left: 66.8vw;
+  position: absolute;
+  bottom: 0;
+  background-size: cover;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+article.element5:hover {
+  background-image: url(../images/boron2.png);
+}
+
+a.element5 {
+  display: block;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+
+#element5:hover #element {
+  opacity: 1;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+/*----- ELEMENT 6 --------*/
+
+article.element6 {
+  width: 16.7vw;
+  height: 80vh;
+  background-color: #f2642f;
+  background: url(../images/oxygen1.png) center center no-repeat;
+  z-index: 2;
+  margin-left: 83.5vw;
+  position: absolute;
+  bottom: 0;
+  background-size: cover;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+article.element6:hover {
+  background-image: url(../images/oxygen2.png);
+}
+
+a.element6 {
+  display: block;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+
+#element6:hover #element {
+  opacity: 1;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+/*----------- HYDROGEN -------------*/
+
+.hydrogen {
+  background-color: #991b28;
+}
+
+/*----------- HELIUM -------------*/
+
+.helium {
+  background-color: #c2b59c;
+}
+
+/*----------- LITHIUM -------------*/
+
+.lithium {
+  background-color: #029d9a;
+}
+
+/*----------- BORON -------------*/
+
+.boron {
+  background-color: #a97c51;
+}
+
+/*----------- OXYGEN -------------*/
+
+.oxygen {
+  background-color: #991b28;
 }

@@ -12,8 +12,11 @@
 </head>
 
 <nav>
-  <ul class="nav">
-    <li><img scr="images/logo-2.png" class="corner-logo"></li>
+
+  <div class="logo">
+    <img src="images/logo-2.png" class="corner-logo">
+  </div>
+  <ul class="explore-nav">
     <li><a href="index.html">Explore</a></li>
     <li><a href="about.html">About</a></li>
   </ul>
@@ -21,3 +24,111 @@
 
 
 <body>
+
+<div  class="choose">
+  <article class="element1" id="element1">
+    <a href="francium.html" class="element1"></a>
+    <h2 id="element">
+      Francium
+    </h2>
+    <h3 id="element">
+
+    </h3>
+  </article>
+
+  <article class="element2" id="element2">
+    <a href="hydrogen.html" class="element2"></a>
+    <h2 id="element">
+      Hydrogen
+    </h2>
+    <h3 id="element">
+
+    </h3>
+  </article>
+
+  <article class="element3" id="element3">
+    <a href="helium.html" class="element3"></a>
+    <h2 id="element">
+      Helium
+    </h2>
+    <h3 id="element">
+
+    </h3>
+  </article>
+
+  <article class="element4" id="element4">
+    <a href="lithium.html" class="element4"></a>
+    <h2 id="element">
+      Lithium
+    </h2>
+    <h3 id="element">
+
+    </h3>
+  </article>
+
+  <article class="element5" id="element5">
+    <a href="boron.html" class="element5"></a>
+    <h2 id="element">
+      Boron
+    </h2>
+    <h3 id="element">
+
+    </h3>
+  </article>
+
+  <article class="element6" id="element6">
+    <a href="oxygen.html" class="element6"></a>
+    <h2 id="element">
+      Oxygen
+    </h2>
+    <h3 id="element">
+
+    </h3>
+  </article>
+</div>
+
+
+
+</body>
+
+
+<!--<script>
+    (function() {
+  function scrollHorizontally(e) {
+    e = window.event || e;
+    var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
+    document.documentElement.scrollLeft -= (delta*40); // Multiplied by 40
+    document.body.scrollLeft -= (delta*40); // Multiplied by 40
+    e.preventDefault();
+  }
+  if (window.addEventListener) {
+    // IE9, Chrome, Safari, Opera
+    window.addEventListener("mousewheel", scrollHorizontally, false);
+    // Firefox
+    window.addEventListener("DOMMouseScroll", scrollHorizontally, false);
+  } else {
+    // IE 6/7/8
+    window.attachEvent("onmousewheel", scrollHorizontally);
+  }
+  })();
+</script>-->
+
+<script>
+  document.body.className += ' fade-out';
+  $(function() {
+    $('body').removeClass('fade-out');
+  });</script>
+  <script>
+  $("body").on('mouseover', 'a', function (e) {
+      var $link = $(this),
+          href = $link.attr('href') || $link.data("href");
+
+      $link.off('click.chrome');
+      $link.on('click.chrome', function () {
+          window.location.href = href;
+      })
+      .attr('data-href', href) //keeps track of the href value
+      .css({ cursor: 'pointer' })
+      .removeAttr('href'); // <- this is what stops Chrome to display status bar
+  });
+</script>
