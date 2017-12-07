@@ -353,6 +353,7 @@ p.tagline {
   margin-left: -.1vw;
   height: 4em;
   margin-top: -.3vh;
+  margin-bottom: 2vh;
   overflow-y: hidden;
 }
 
