@@ -231,7 +231,7 @@ p.landing-tag {
   font-family: 'Helvetica Medium';
   opacity: .6;
   position: relative;
-  margin-top: 30vh;
+  margin-top: 28vh;
 }
 
 /*---------------- EXPLORE ----------------------*/
@@ -383,7 +383,11 @@ h2 {
 }
 
 img.structure {
-  width: 19vw;
+  width: 17vw;
+}
+
+img.helium-structure {
+  width: 15vw;
 }
 
 p.links {
