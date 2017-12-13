@@ -426,6 +426,27 @@ img.facts-squares {
   width: auto;
 }
 
+a.pdf-blue {
+  color: #029d9a;
+  opacity: 1;
+}
+
+a.pdf-red {
+  color: #991B28;
+  opacity: 1;
+}
+
+a.pdf-light-brown {
+  color: #C2B59C;
+  opacity: 1;
+}
+
+a.pdf-brown {
+  color: #A97C51;
+  opacity: 1;
+}
+
+
 /*---------------- EXPLORE -------------------*/
 
 div.choose {
