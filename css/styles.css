@@ -283,7 +283,7 @@ div.title {
 }
 
 img.francium {
-  width: 8.4vw;
+  width: 10vw;
   height: auto;
 }
 
@@ -292,8 +292,8 @@ h2.francium {
   font-weight: lighter;
   margin-left: -.1vw;
   margin-top: 1vh;
-  font-size: 4.3vh;
-  height: 4.8vh;
+  font-size: 6vh;
+  height: 5.3vh;
   overflow-y: hidden;
 }
 
@@ -395,13 +395,15 @@ h2 {
   font-family: 'Helvetica';
   font-size: 1.7em;
   margin-top: -1vh;
-  height: auto;
+  height: 5vh;
   overflow-y: hidden;
   margin-bottom: .5em;
 }
 
 img.structure {
-  width: 17vw;
+  width: 13vw;
+  margin-top: 3vh;
+  margin-left: .5em;
 }
 
 img.helium-structure {
@@ -416,8 +418,20 @@ p.links {
   line-height: 3vh;
 }
 
+div.footer {
+  height: 4vh;
+  font-size: .8vw;
+  font-family: 'Helvetica';
+  text-align: center;
+}
+
+p.footer {
+  margin-top: 1.3vh;
+  letter-spacing: 2px;
+}
+
 a {
-  color: #a6c5e8;
+  color: grey;
   text-decoration: none;
 }
 
@@ -733,4 +747,135 @@ a.element6 {
 
 .oxygen {
   background-color: #991b28;
+}
+
+/*---------------------------------- MOBILE ----------------------------------------------------*/
+
+@media (max-width: 1100px) {
+
+html, body {
+  overflow-x: hidden;
+}
+
+.wrapper {
+  display: block;
+}
+
+.box {
+  width: 100vw;
+}
+
+/*---------------- ELEMENT -------------------------*/
+
+img.francium {
+  width: 60vw;
+}
+
+p.tagline {
+  width: 60vw;
+}
+
+img.structure {
+  width: 60vw;
+}
+
+.a {
+  padding-left: 16vw;
+}
+
+h2 {
+  height: 6vh;
+}
+
+
+/*---------------- NAV --------------------*/
+
+nav{
+
+  /*border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;*/
+  margin-bottom: ;
+  z-index: 2;
+  width: 90vw;
+  overflow-y: hidden;
+}
+
+ul.nav {
+  overflow-y: hidden;
+  display: inline;
+  vertical-align: middle;
+  height: 10vh;
+  font-size: 5.5vw;
+}
+
+nav ul{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+nav ul li{
+  font-family: 'Helvetica Medium';
+  font-weight: bold;
+  display: inline;
+  margin-left: 20px;
+  padding-right: 1vw;
+}
+
+nav ul li a {
+  color: #333333;
+  text-decoration: none;
+  opacity: .6;
+}
+
+nav a:hover{
+  border-bottom: none;
+  color: #a6a6a6;
+}
+
+.other-nav {
+  background-color: white;
+  position: absolute;
+  display: inline;
+}
+
+table {
+  margin: auto;
+  margin-top: 2vh;
+}
+
+td {
+  width: 90vw;
+  overflow-y: hidden;
+  text-align: center;
+  font-family: 'Helvetica';
+  font-size: 3vh;
+}
+
+p.bio-role {
+  width: 80vw;
+}
+
+p.history {
+  width: 80vw;
+}
+
+p.uses {
+  width: 80vw;
+}
+
+p.natural {
+  width: 80vw;
+}
+
+div.footer {
+  height: auto;
+}
+
+p.footer {
+  width: 80vw;
+  font-size: 5vw;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  line-height: 2.5vh;
+  margin: auto;
 }
