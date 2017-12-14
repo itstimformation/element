@@ -922,8 +922,22 @@ p.landing-tag {
 
 /*------------- EXPLORE ----------------*/
 
+div.choose {
+  overflow-x: hidden;
+  text-align: center;
+}
+
+h2#element {
+  opacity: 0;
+  display: none;
+}
+
+h3#element {
+  opacity: 0;
+  display: none;
+}
+
 article.element1 {
-  display: block;
   width: 100vw;
   height: 34vh;
   background: url(../images/francium1.png) center -25vh no-repeat;
@@ -939,7 +953,6 @@ a.element1 {
 }
 
 article.element2 {
-  display: block;
   width: 100vw;
   height: 34vh;
   background: url(../images/hydrogen1.png) center -20vh no-repeat;
@@ -947,62 +960,6 @@ article.element2 {
 }
 
 a.element2 {
-  display: block;
-  height: 100%;
-  width: 100%;
-  z-index: 5;
-}
-
-article.element3 {
-  width: 100vw;
-  height: 34vh;
-  background: url(../images/helium1.png) center -20vh no-repeat;
-  background-size: cover;
-}
-
-a.element3 {
-  display: block;
-  height: 100%;
-  width: 100%;
-  z-index: 5;
-}
-
-article.element4 {
-  width: 100vw;
-  height: 34vh;
-  background: url(../images/lithium1.png) center -25vh no-repeat;
-  background-size: cover;
-}
-
-a.element4 {
-  display: block;
-  height: 100%;
-  width: 100%;
-  z-index: 5;
-}
-
-article.element5 {
-  width: 100vw;
-  height: 34vh;
-  background: url(../images/boron1.png) center -25vh no-repeat;
-  background-size: cover;
-}
-
-a.element5 {
-  display: block;
-  height: 100%;
-  width: 100%;
-  z-index: 5;
-}
-
-article.element6 {
-  width: 100vw;
-  height: 34vh;
-  background: url(../images/oxygen1.png) center -25vh no-repeat;
-  background-size: cover;
-}
-
-a.element6 {
   display: block;
   height: 100%;
   width: 100%;
